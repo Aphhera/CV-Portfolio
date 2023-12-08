@@ -1,0 +1,29 @@
+html{background:antiquewhite;}
+
+
+#profile{font-family:Verdana; font-size:15px }
+#education
+
+
+.main-text{font-family:Verdana; font-size:15px }
+.center{text-align: center; font-family:verdana;}
+.info{padding-left:25px}
+
+
+
+a[draggable]{font-family:Impact, 'Arial Narrow Bold', sans-serif;color:brown;
+    padding:6px; background-color: wheat;}
+a:hover{color: blue}
+
+
+h1[center]{font-family:Verdana, sans-serif}
+
+
+h4{font-family:Helvetica, sans-serif; font-size:17px;}
+
+
+p[center]{font-family:Verdana, sans-serif}
+p{font-family:Helvetica, sans-serif; font-size:15px}
+
+
+li{font-family:Helvetica, sans-serif; font-size:15px}
