@@ -4,9 +4,27 @@ html{background:antiquewhite;}
 
 
 .navigation{
+    text-align: center;
     position:fixed;
-    text-align:center
+    display: grid;
+    gap:20px;
+    grid-column: 2fr 1fr 1fr;
+    grid-row: auto;
+}
+
+  .nav-bar{
+    border-radius: 10%;
+
+
   }
+
+ .navigation li{
+    list-style: none;
+  }
+
+
+
+
 .title{
     text-align: center;
     font-family:verdana;
@@ -15,27 +33,56 @@ html{background:antiquewhite;}
     text-align: center;
     font-family:verdana;
 }
-.main-text{
-    align-self: center;
+.profile-text{
+    display:grid;
+    grid-row: 1fr 1fr;
+    grid-column: 1fr 1fr;
+}
+
+.left-text{
+    text-align:left;
     font-family:Verdana;
     font-size:15px;
-    width:50%;
-    margin-left:25%;
+    background-color: white;
+    padding:20px 20px;
+    margin: 10%;
+    border-radius:25px;
+}
+
+.right-image{
+    float:right;
+    display:block;
+    background-color: white;
+    padding:20px 20px;
+    margin-left: 25px;
+    border-radius:25px;
+    width: 500px;
+    height: 190px;
+}
+
+img{
+    border-radius:10%
+}
+
+.main-text{
+    font-family:Verdana;
+    font-size:15px;
+    margin: left 25px;
     background-color: white;
     padding:20px 20px;
     border-radius:25px;
-    }
-
+}
 
 #profile{text-align: center;}
 
 
-a[draggable]{
+[draggable]{
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     color:brown;
     padding:6px;
     background-color: wheat;}
 a:hover{color: blue}
+
 
 
 
